@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>The Digital Nomad</title>
+</head>
+
+<body>
+    
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+    <div class="container">
+        <a href="#" class="navbar-brand fw-bold text-white"><i class="bi-laptop mx-3"></i>
+            The Digital Nomad</a>
+
+            <!-- Toggler for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- nav options -->
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#aboutMe" class="nav-link text-white">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link text-white">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link text-white">Questions</a>
+                    </li>
+                    <li class="nav-item d-none ms-2 d-md-inline">
+                        <a href="#services" class="btn btn-outline-light">Hire Me!</a>
+                    </li>
+                </ul>
+            </div>
+
+    </div>
+</nav>
+
+<!-- Showcase -->
+<section class="bg-dark text-light p-5">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+
+            <!-- Showcase Information & Img -->
+            <div>
+                <h1 class="text-white">Building High Quality <span class="text-warning">Websites and Applications</span></h1>
+                <p class="lead">We Work Globally with Clients to Fulfill Web and Application Needs for Buisness and Personal Projects.</p>
+            </div>
+            <div>
+                <img class="img-fluid d-none d-sm-block" src="assets/Digital Nomad.svg" alt="Illustration digital nomad">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="bg-primary text-light d-none d-md-block">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center p-5">
+
+            <div>
+                <h4>Sign up for my Newsletter</h4>
+                <p class="lead">Sent out weekly.</p>
+            </div>
+
+            <div id="newsEmail" class="input-group mb-3 ">
+                <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">Submit</span>
+              </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- About Me -->
+<section id="aboutMe" class="p-5">
+    <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+
+            <div>
+                <img class="img-fluid d-none d-md-block" src="assets/Programmer.svg" alt="">
+            </div>
+
+            <div class="p-4 text-center">
+                <h3>About Me</h3>
+                <p class="lead">My name is Daniel, The Digital Nomad &copy. I've been traveling the world while using my skill set in Web & Mobile Development to assit clients from around the globe, bringing their ideas to life. My passion of travel and development has taken my to over 100 countries and counting.  </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Services Cards -->
+<section id="services">
+    <div class="container-md text-center">
+        <h2>Services</h2>
+        <p class="lead text-muted">We offer start to finish services</p>
+    </div>
+
+    <div class="container d-flex justify-content-center flex-wrap">
+
+        <div class="card service-cards mx-4 mb-3">
+            <img src="assets/data-processing.svg" alt="">
+            <div class="card-body text-center">
+                <h5 class="card-title">Website Design</h5>
+                <p class="card-text">Complete Website design. Website will be fully complete for you to host on a service of your choice.</p>
+                <a href="" class="btn btn-primary">Purchase</a>
+            </div>
+        </div>
+
+        <div  class="card service-cards border-primary border-3 mb-3 mx-4">
+            <img src="assets/app.svg" alt="">
+            <div class="card-body text-center">
+                <h5 class="card-title">Web and Mobile Application</h5>
+                <p class="card-text">The Complete Package. Web and Mobile application, developed start to finish as well as launched online.</p>
+                <a href="" class="btn btn-primary">Purchase</a>
+                <div class="card-header text-center text-primary mt-3">Most Popular</div>
+
+            </div>
+        </div>
+
+        <div class="card service-cards mb-3 mx-4">
+            <img src="assets/server_cluster.svg" alt="">
+            <div class="card-body text-center">
+                <h5 class="card-title">Website Design & Deployment</h5>
+                <p class="card-text">Website designed and launched online with SEO implementation.</p>
+                <a href="" class="btn btn-primary">Purchase</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="questions" class="bg-dark text-dark p-5">
+    <div class="container">
+
+        <h2 class="text-white text-center mb-5">Frequently Asked Questions</h2>
+
+        <!-- accordion -->
+        <div id="accordion-questions" class="accordion mx-auto">
+
+            <!-- Question One -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    How Long Does it Take to Complete Each Product?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                  <div class="accordion-body">
+                    <strong>This will vary depending on product purchased as well and current volume of orders.</strong> Typically, for Website and Website & Deployment products can take from 2 - 4 weeks to completion. Full Web and Mobile application products can take 1 - 4 months depending on the complexity and needs of the indivdual or business. 
+                  </div>
+                </div>
+              </div>
+
+              <!-- Question Two -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How Are Payments Accecpted?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                  <div class="accordion-body">
+                    <strong>I have a variety of payment options for customers.</strong> I accept PayPal, E-Transfer, Visa & Mastercard.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Question Three -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How Do We Discuss Ideas?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                  <div class="accordion-body">
+                    <strong>Every purchase comes with a Zoom consultation.</strong> Along with a inital Zoom consultation, clients are updated periodically and additonal Zoom meetings can be arranged for additons and changes to projects. Additional charges may apply.
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Reviews -->
+
+<section id="reviews">
+    <div class="container">
+        <h2 class="text-center">Reviews</h2>
+        <p class="lead text-center">Let's See What Our Clients Have to Say</p>
+
+        <!-- Testomional Cards -->
+       <div class="container d-flex justify-content-center flex-wrap"">
+
+            <div class="card service-cards mx-4 mb-3">
+                <img src="https://randomuser.me/api/portraits/women/2.jpg" class="rounded-circle mb-3 mt-3 w-50 mx-auto" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Sarah Stevens</h5>
+                    <p class="card-text">Exactly what I had in my mind. Daniel brought my idea to life. Seamless and stress free process.</p>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                </div>
+            </div>
+
+            <div class="card service-cards mx-4 mb-3">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3 mt-3 w-50 mx-auto" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">John Carlson</h5>
+                    <p class="card-text">My business seen a major jump in traffic with a more professional online presence as well and fine tuned SEO.</p>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                </div>
+            </div>
+
+            <div class="card service-cards mx-4 mb-3">
+                <img src="https://randomuser.me/api/portraits/men/10.jpg" class="rounded-circle mb-3 mt-3 w-50 mx-auto" alt="">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Joey English</h5>
+                    <p class="card-text">I've worked with Daniel multiple times over the years and each time I was blown away by the ease of the process. His products speak for themselves.</p>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                    <i class="bi-star-fill"></i>
+                </div>
+            </div>
+
+            
+
+       </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<section id="contact" class="bg-primary mt-3">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <!-- Social Media Icons -->
+        <div>
+            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+        </div>
+
+        
+         <p class="text-white">Copyright &copy The Digital Nomad</p>
+        
+    </div>
+</section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

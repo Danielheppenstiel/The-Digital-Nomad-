@@ -1,0 +1,23 @@
+body::before {
+    display: block;
+    content: '';
+    height: 55px;
+}
+
+#newsEmail {
+    max-width: 500px;
+}
+
+.service-cards {
+    width: 18rem;
+}
+
+#accordion-questions {
+    max-width: 975px;
+}
+
+#contact {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+}
